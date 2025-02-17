@@ -209,7 +209,7 @@
     <!-- Chatbot Demo (Final CTA) Section -->
     <div class="container chatbot-demo">
         <h2 class="section-title">Put Our AI to the Test</h2>
-        <p>Click the icon or wait 5 seconds to see our AI Chat Agent spring to life!</p>
+        <p>Click the chat icon to see our AI Chat Agent spring to life!</p>
         <div class="chatbot-container">
             <script type="text/javascript">
               // Debugging fix for potential ForbiddenError: Request cancelled.
@@ -233,7 +233,7 @@
                         } else {
                           console.warn("No recognized function (toggleChat/open). Please confirm the Voiceflow function name.");
                         }
-                      }, 5000);
+                      }, 10000);
                     } catch (err) {
                       console.error("Encountered an error loading Voiceflow:", err);
                       // If the user sees ForbiddenError, ensure environment allows external requests.
